@@ -11,6 +11,9 @@ No.
 - Keystrokes
 - ToggleSprint
 
+## How to I open the ClickGUI?
+press R-Shift
+
 ## Author
 
 - [fischboy](https://github.com/fischboy1337)
