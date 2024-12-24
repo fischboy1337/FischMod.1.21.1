@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fischmod",
+  "version": "${version}",
+  "name": "FischMod",
+  "description": "Coller CLient",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/fischmod/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "eu.fischboy.client.FischmodEntrypointClient"
+    ],
+    "main": [
+      "eu.fischboy.FischmodEntrypoint"
+    ]
+  },
+  "mixins": [
+    "fischmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
